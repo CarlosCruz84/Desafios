@@ -37,5 +37,11 @@ transition: backgrond-color 0.3s;
 .linck :hover {
     background-color: blanchedalmond;
 }
+.rodape{
+    color: black;
+    background-color: yellowgreen;
+    border-radius: 5px;
+    padding: 5px;
+}
 
    
