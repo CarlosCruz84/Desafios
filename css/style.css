@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #AAAAAA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.container{
+    width: calc(100% - 2rem);
+    padding: 1rem;
+    gap: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 1rem;
+    display: flex;
+}
+
+.container-coluna{
+    flex: 1;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem{
+    max-width: 50vw;
+    max-height: 80vh;
+    box-shadow: 0 0 1rem;
+}
+
+.nome{
+    font-size: 1.5rem;
+}
+
+.paragrafo{
+    color: #666666;
+}
+
+.container-linck{
+    display: flex;
+}
+
+.linck{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #0073b1;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: backgrond-color 0.3s;
+}
+.linck :hover {
+    background-color: blanchedalmond;
+}
+.rodape{
+    color: black;
+    background-color: yellowgreen;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+   
