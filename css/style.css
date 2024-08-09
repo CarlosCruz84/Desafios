@@ -60,12 +60,13 @@ body{
     display: flex;
     justify-content: center;
     text-decoration: none;
-    color: #dddddd;
-    background-color: #0073b1;
+    color: #DDDDDD;
+    background-color: #0073B1;
     padding: 1rem;
     transition: backgrond-color 0.3s;
 }
-.linck :hover {
+.linck:hover {
+    color: black;
     background-color: blanchedalmond;
 }
 .rodape{
